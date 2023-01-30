@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OnMouseOverScript : MonoBehaviour
+public class TileHandler : MonoBehaviour
 {
+    public int TileId = 0;
+
     void OnMouseOver()
     {
-        Debug.Log("mouse over");
+        TileId = 1;
     }
 }
